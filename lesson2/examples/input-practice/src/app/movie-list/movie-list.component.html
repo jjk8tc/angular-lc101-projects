@@ -5,4 +5,9 @@
     </ol>
     <hr>
 
+    <input #newMovie (keyup.enter)='addMovie(newMovie.value); newMovie.value=""' type='text' placeholder="Enter Movie Title Here"/>
+    <button (click)='addMovie(newMovie.value); newMovie.value=""'>Add</button>
+    
+
  </div>
+ 
