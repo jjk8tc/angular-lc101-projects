@@ -2,3 +2,7 @@ hr {
     border-width: thick;
     color: black
 }
+
+.col-3 {
+    border-left: 2px dotted #444;
+}
